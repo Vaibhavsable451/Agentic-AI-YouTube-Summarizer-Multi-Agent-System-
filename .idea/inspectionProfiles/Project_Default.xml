@@ -1,0 +1,27 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="crewai" />
+          <option value="crewai-tools" />
+          <option value="litellm" />
+          <option value="langchain-groq" />
+          <option value="langchain-community" />
+          <option value="langchain-text-splitters" />
+          <option value="sentence-transformers" />
+          <option value="faiss-cpu" />
+          <option value="streamlit" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="tools.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
